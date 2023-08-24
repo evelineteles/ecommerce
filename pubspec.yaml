@@ -64,54 +64,9 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - assets/gamer/controlecomfio.jpg
-    - assets/gamer/controlecomfio1.jpg
-    - assets/gamer/controlecomfio2.jpg
-    - assets/gamer/fonedeouvidogamer.jpg
-    - assets/gamer/fonedeouvidogamer1.jpg
-    - assets/gamer/fonedeouvidogamer2.jpg
-    - assets/gamer/kit.jpg
-    - assets/gamer/kit1.jpg
-    - assets/gamer/kit2.jpg
-    - assets/gamer/ledparagamer.jpg 
-    - assets/gamer/mousepadgamer.jpg
-    - assets/gamer/mousepadgamer1.jpg
-    - assets/gamer/mousepadgamer2.jpg
-    - assets/hardware/cooler_processador.png
-    - assets/hardware/cooler_processador01.jpg
-    - assets/hardware/cooler_processador02.jpg
-    - assets/hardware/gabinete_gamer.png
-    - assets/hardware/gabinete_gamer01.jpg
-    - assets/hardware/gabinete_gamer02.jpg
-    - assets/hardware/memoria_desktop.png
-    - assets/hardware/memoria_desktop01.png
-    - assets/hardware/memoria_desktop02.png
-    - assets/hardware/placa_mae.jpg
-    - assets/hardware/placa_mae01.jpg
-    - assets/hardware/placa_mae02.jpg
-    - assets/hardware/placa_video.png
-    - assets/hardware/placa_video01.png
-    - assets/hardware/placa_video02.png
-    - assets/hardware/ssd_externo.png
-    - assets/hardware/ssd_externo01.png
-    - assets/hardware/ssd_externo02.png
-    - assets/network/mikrotik.jpeg
-    - assets/network/mikrotik01.jpeg
-    - assets/network/mikrotik02.jpeg
-    - assets/network/mini.jpeg
-    - assets/network/mini01.jpeg
-    - assets/network/mini02.jpeg
-    - assets/network/repetidor.jpeg
-    - assets/network/repetidor01.jpeg
-    - assets/network/repetidor02.jpeg
-    - assets/network/repetidor03.jpeg
-    - assets/network/switch.jpeg
-    - assets/network/switch01.jpeg
-    - assets/network/switch02.jpeg
-    - assets/network/usb.jpeg
-    - assets/network/usb01.jpeg
-    - assets/network/usb02.jpeg
-  
+    - assets/gamer/
+    - assets/hardware/
+    - assets/network/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
