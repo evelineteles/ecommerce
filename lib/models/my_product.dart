@@ -1,11 +1,10 @@
 import 'package:ecommerce/models/product.dart';
-
 class MyProducts {
   static List<Product> todosProdutos = [
-  ...MyProducts.gamer,
-  ...MyProducts.hardware,
-  ...MyProducts.network,
-];
+    ...MyProducts.gamer,
+    ...MyProducts.hardware,
+    ...MyProducts.network,
+  ];
   static List<Product> gamer = [
     Product(
       id: 1,
@@ -20,7 +19,7 @@ class MyProducts {
       name: 'Controle com fio gamer',
       price: 287.00,
       image: 'assets/gamer/controlecomfio1.jpg',
-      description: 'Controle para Nintendo Switch',
+      description: 'Controle com fio para Nintendo Switch',
       quantity: 1,
     ),
     Product(
@@ -28,7 +27,7 @@ class MyProducts {
       name: 'Controle com fio gamer',
       price: 164.00,
       image: 'assets/gamer/controlecomfio2.jpg',
-      description: 'Controlador P/ Nsw Wired Lightning',
+      description: 'Controle com gio gamer, controlador P/ Nsw Wired Lightning',
       quantity: 1,
     ),
     Product(
@@ -36,7 +35,7 @@ class MyProducts {
       name: 'Mouse para gamer',
       price: 23.00,
       image: 'assets/gamer/mousegamer.jpg',
-      description: 'Redragon MOUSE GAMER GRIFFIN',
+      description: 'Mouse para gamer, Redragon MOUSE GAMER GRIFFIN',
       quantity: 1,
     ),
     Product(
@@ -44,7 +43,7 @@ class MyProducts {
       name: 'Mouse para gamer',
       price: 32.00,
       image: 'assets/gamer/mousegamer1.jpg',
-      description: 'Redragon MOUSE TITANOBOA2 M802-RGB-1',
+      description: 'Mouse para gamer, Redragon MOUSE TITANOBOA2 M802-RGB-1',
       quantity: 1,
     ),
     Product(
@@ -52,7 +51,7 @@ class MyProducts {
       name: 'Mouse para gamer',
       price: 22.00,
       image: 'assets/gamer/mousegamer2.jpg',
-      description: 'Gaming Mouse 7200 DPI Backlight Multi Color',
+      description: 'Mouse para gamer, Gaming Mouse 7200 DPI Backlight Multi Color',
       quantity: 1,
     ),
     Product(
@@ -132,7 +131,7 @@ class MyProducts {
       name: 'Led para Gamer',
       price: 41.00,
       image: 'assets/gamer/ledparagamer.jpg',
-      description: 'Barra de Led Rítmica Rgb',
+      description: 'Led para Gamer, Barra de Led Rítmica Rgb',
       quantity: 1,
     ),
     Product(
@@ -140,7 +139,7 @@ class MyProducts {
       name: 'Controle com fio gamer',
       price: 74.90,
       image: 'assets/gamer/ledparagamer1.jpg',
-      description: 'Led para decoração',
+      description: 'Controle com fio gamer, Led para decoração',
       quantity: 1,
     ),
     Product(
@@ -148,7 +147,7 @@ class MyProducts {
       name: 'Controle com fio gamer',
       price: 355.00,
       image: 'assets/gamer/ledparagamer2.jpg',
-      description: 'Led Neon Zelda Sword Setup Gamer',
+      description: 'Controle com fio gamer, Led Neon Zelda Sword Setup Gamer',
       quantity: 1,
     ),
   ];
@@ -311,5 +310,126 @@ class MyProducts {
       quantity: 1,
     ),
   ];
-  static List<Product> network = [];
+  static List<Product> network = [
+      Product(
+      id: 1,
+      name: 'Roteador Mikrotik Hex',
+      price: 439.00,
+      image: 'assets/network/mikrotik.jpeg',
+      description: 'Roteador Mikrotik Hex Router Board RB750GR3',
+      quantity: 1,
+    ),
+      Product(
+      id: 2,
+      name: 'Roteador Mikrotik Routerboard',
+      price: 696.00,
+      image: 'assets/network/mikrotik01.jpeg',
+      description: 'Roteador Mikrotik Rb450g Routerboard3',
+      quantity: 1,
+    ),
+      Product(
+      id: 3,
+      name: 'Roteador Mikrotik Access Point',
+      price: 209.00,
+      image: 'assets/network/mikrotik02.jpeg',
+      description: 'Roteador Mikrotik Access Point - Mikrotik RB941-2n',
+      quantity: 1,
+    ),
+      Product(
+      id: 4,
+      name: 'Adaptador Wireless Syang Mini',
+      price: 24.90,
+      image: 'assets/network/mini.jpeg',
+      description: 'Mini Adaptador Wifi Nano 2.4 Ghz, Syang',
+      quantity: 1,
+    ),
+      Product(
+      id: 5,
+      name: 'Adaptador Wireless TP-Link Dual-Band',
+      price: 149.50,
+      image: 'assets/network/mini01.jpeg',
+      description: 'Adaptador USB wireless dual band',
+      quantity: 1,
+    ),
+      Product(
+      id: 6,
+      name: 'Adaptador Wireless TP-Link 300MBPS',
+      price: 68.90,
+      image: 'assets/network/mini02.jpeg',
+      description: 'Adaptador USB Wireless N 300Mbps, TP-Link, TL-WN821NS',
+      quantity: 1,
+    ),
+      Product(
+      id: 7,
+      name: 'D-Link Repetidor Wireless',
+      price: 149.80,
+      image: 'assets/network/repetidor.jpeg',
+      description: 'D-Link Repetidor Wireless',
+      quantity: 1,
+    ),
+      Product(
+      id: 8,
+      name: 'Repetidor Wireless Homesen 300M',
+      price: 62.00,
+      image: 'assets/network/repetidor01.jpeg',
+      description: 'Homesen Amplif sinal WiFi 300M',
+      quantity: 1,
+    ),
+      Product(
+      id: 9,
+      name: 'Repetidor Wireless TP-Link 300Mbps',
+      price: 123.40,
+      image: 'assets/network/repetidor02.jpeg',
+      description: 'Repetidor TP-Link Wire 300Mbps',
+      quantity: 1,
+    ),
+      Product(
+      id: 10,
+      name: 'Switch TP-Link 8 Portas',
+      price: 360.30,
+      image: 'assets/network/switch.jpeg',
+      description: 'TP-Link TL-SG108 Switch Ggbit 8 Portas',
+      quantity: 1,
+    ),
+      Product(
+      id: 11,
+      name: 'Switch TP-Link 5 Portas',
+      price: 85.40,
+      image: 'assets/network/switch01.jpeg',
+      description: 'Switch TP-Link 5 Portas TL',
+      quantity: 1,
+    ),
+      Product(
+      id: 12,
+      name: 'Switch TP-Link 8 Portas',
+      price: 768.90,
+      image: 'assets/network/switch02.jpeg',
+      description: 'Switch TP-Link 8 Portas, Gigabit, 2 Portas SFP TL-SG3210',
+      quantity: 1,
+    ),
+      Product(
+      id: 13,
+      name: 'Expansor HUB USB',
+      price: 28.00,
+      image: 'assets/network/usb.jpeg',
+      description: 'Extensões Mini Hub USB, Expansor',
+      quantity: 1,
+    ),
+      Product(
+      id: 14,
+      name: 'Expansor HUB USB 7 Portas',
+      price: 29.90,
+      image: 'assets/network/usb01.jpeg',
+      description: 'Hub Usb 7 Portas 2.0 Hd Extensor',
+      quantity: 1,
+    ),
+      Product(
+      id: 15,
+      name: 'Expansor HUB USB 4 Portas',
+      price: 55.30,
+      image: 'assets/network/usb02.jpeg',
+      description: 'Expansor HUB USB, Bright, 4 PORTAS 3.0',
+      quantity: 1,
+    ),
+  ];
 }
