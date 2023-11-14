@@ -1,3 +1,3 @@
-# ecommerce - CR Tech
+# Ecommerce - CR Tech
 
-Parte do projeto de loja e-commerce do grupo Código Rosa - TODAS TECH
+Parte do projeto (inicial) da loja e-commerce do grupo Código Rosa - como parte do programa Todas Tech, curso da Imã Tech.
